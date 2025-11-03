@@ -9,3 +9,14 @@ D:\3_code\2025-2026\HK1\Đồ án tin học\TicTacToe\TicTacToe\obj\Debug\TicTac
 D:\3_code\2025-2026\HK1\Đồ án tin học\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
 D:\3_code\2025-2026\HK1\Đồ án tin học\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
 D:\3_code\2025-2026\HK1\Đồ án tin học\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe.config
+D:\3_code\2025-2026\HK1\Đồ án tin học\halien\TicTacToe\bin\Debug\TicTacToe.exe.config
+D:\3_code\2025-2026\HK1\Đồ án tin học\halien\TicTacToe\bin\Debug\TicTacToe.exe
+D:\3_code\2025-2026\HK1\Đồ án tin học\halien\TicTacToe\bin\Debug\TicTacToe.pdb
+D:\3_code\2025-2026\HK1\Đồ án tin học\halien\TicTacToe\obj\Debug\TicTacToe.csproj.AssemblyReference.cache
+D:\3_code\2025-2026\HK1\Đồ án tin học\halien\TicTacToe\obj\Debug\TicTacToe.exe.config
+D:\3_code\2025-2026\HK1\Đồ án tin học\halien\TicTacToe\obj\Debug\TicTacToe.Form1.resources
+D:\3_code\2025-2026\HK1\Đồ án tin học\halien\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
+D:\3_code\2025-2026\HK1\Đồ án tin học\halien\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.cache
+D:\3_code\2025-2026\HK1\Đồ án tin học\halien\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+D:\3_code\2025-2026\HK1\Đồ án tin học\halien\TicTacToe\obj\Debug\TicTacToe.exe
+D:\3_code\2025-2026\HK1\Đồ án tin học\halien\TicTacToe\obj\Debug\TicTacToe.pdb

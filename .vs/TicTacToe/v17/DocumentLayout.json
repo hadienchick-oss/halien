@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\",
+  "WorkspaceRootPath": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|d:\\3_code\\2025-2026\\hk1\\\u0111\u1ED3 \u00E1n tin h\u1ECDc\\tictactoe\\tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|d:\\3_code\\2025-2026\\hk1\\\u0111\u1ED3 \u00E1n tin h\u1ECDc\\halien\\tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\tictactoe\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\tictactoe\\chessboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\chessboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\tictactoe\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\tictactoe\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|d:\\3_code\\2025-2026\\hk1\\\u0111\u1ED3 \u00E1n tin h\u1ECDc\\halien\\tictactoe\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,52 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChessBoard.cs",
-              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\ChessBoard.cs",
-              "RelativeDocumentMoniker": "TicTacToe\\ChessBoard.cs",
-              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\ChessBoard.cs",
-              "RelativeToolTip": "TicTacToe\\ChessBoard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\TicTacToe\\Player.cs",
+              "RelativeDocumentMoniker": "TicTacToe\\Player.cs",
+              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\TicTacToe\\Player.cs",
+              "RelativeToolTip": "TicTacToe\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:41:57.191Z"
+              "WhenOpened": "2025-10-24T03:58:08.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\TicTacToe\\Form1.cs",
+              "RelativeDocumentMoniker": "TicTacToe\\Form1.cs",
+              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\TicTacToe\\Form1.cs",
+              "RelativeToolTip": "TicTacToe\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T03:59:26.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\TicTacToe\\Board.cs",
+              "RelativeDocumentMoniker": "TicTacToe\\Board.cs",
+              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\TicTacToe\\Board.cs",
+              "RelativeToolTip": "TicTacToe\\Board.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T15:41:57.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "cache.cs",
-              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\cache.cs",
+              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\TicTacToe\\cache.cs",
               "RelativeDocumentMoniker": "TicTacToe\\cache.cs",
-              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\cache.cs",
+              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\TicTacToe\\cache.cs",
               "RelativeToolTip": "TicTacToe\\cache.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:17:55.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Form1.cs",
-              "RelativeDocumentMoniker": "TicTacToe\\Form1.cs",
-              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Form1.cs",
-              "RelativeToolTip": "TicTacToe\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:00:37.186Z",
+              "WhenOpened": "2025-10-20T15:17:55.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Form1.cs",
+              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\TicTacToe\\Form1.cs",
               "RelativeDocumentMoniker": "TicTacToe\\Form1.cs",
-              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Form1.cs [Design]",
+              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\halien\\TicTacToe\\Form1.cs [Design]",
               "RelativeToolTip": "TicTacToe\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T13:54:33.656Z",
