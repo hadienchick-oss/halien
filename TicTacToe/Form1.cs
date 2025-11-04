@@ -20,7 +20,5 @@ namespace TicTacToe
             ChessBoard= new Board(pnlBoard);
             ChessBoard.drawChessBoard();
         }
-        
-        
     }
 }

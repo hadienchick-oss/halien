@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pnlBoard = new System.Windows.Forms.Panel();
             this.panelPlayer = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -35,18 +36,26 @@
             this.panelHistory = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.chếĐộToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelPlayer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelHistory.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBoard
             // 
             this.pnlBoard.BackColor = System.Drawing.SystemColors.Control;
-            this.pnlBoard.Location = new System.Drawing.Point(30, 31);
-            this.pnlBoard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlBoard.Location = new System.Drawing.Point(30, 48);
+            this.pnlBoard.Margin = new System.Windows.Forms.Padding(4);
             this.pnlBoard.Name = "pnlBoard";
-            this.pnlBoard.Size = new System.Drawing.Size(844, 846);
+            this.pnlBoard.Size = new System.Drawing.Size(844, 889);
             this.pnlBoard.TabIndex = 0;
             // 
             // panelPlayer
@@ -55,8 +64,8 @@
             this.panelPlayer.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panelPlayer.Controls.Add(this.pictureBox1);
             this.panelPlayer.Controls.Add(this.label1);
-            this.panelPlayer.Location = new System.Drawing.Point(1208, 31);
-            this.panelPlayer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelPlayer.Location = new System.Drawing.Point(969, 31);
+            this.panelPlayer.Margin = new System.Windows.Forms.Padding(4);
             this.panelPlayer.Name = "panelPlayer";
             this.panelPlayer.Size = new System.Drawing.Size(296, 604);
             this.panelPlayer.TabIndex = 1;
@@ -67,7 +76,7 @@
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = global::TicTacToe.Properties.Resources.stuimages;
             this.pictureBox1.Location = new System.Drawing.Point(24, 17);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(128, 96);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -91,8 +100,8 @@
             this.panelHistory.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panelHistory.Controls.Add(this.label3);
             this.panelHistory.Controls.Add(this.label2);
-            this.panelHistory.Location = new System.Drawing.Point(1208, 663);
-            this.panelHistory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelHistory.Location = new System.Drawing.Point(969, 663);
+            this.panelHistory.Margin = new System.Windows.Forms.Padding(4);
             this.panelHistory.Name = "panelHistory";
             this.panelHistory.Size = new System.Drawing.Size(296, 213);
             this.panelHistory.TabIndex = 3;
@@ -121,15 +130,71 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Undo";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1301, 42);
+            this.menuStrip1.TabIndex = 4;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.chếĐộToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(97, 38);
+            this.toolStripMenuItem1.Text = "Menu";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(359, 44);
+            this.toolStripMenuItem2.Text = "Lịch Sử";
+            // 
+            // chếĐộToolStripMenuItem
+            // 
+            this.chếĐộToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aIToolStripMenuItem,
+            this.pToolStripMenuItem});
+            this.chếĐộToolStripMenuItem.Name = "chếĐộToolStripMenuItem";
+            this.chếĐộToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.chếĐộToolStripMenuItem.Text = "Chế Độ";
+            // 
+            // aIToolStripMenuItem
+            // 
+            this.aIToolStripMenuItem.Name = "aIToolStripMenuItem";
+            this.aIToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.aIToolStripMenuItem.Text = "AI";
+            // 
+            // pToolStripMenuItem
+            // 
+            this.pToolStripMenuItem.Name = "pToolStripMenuItem";
+            this.pToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.pToolStripMenuItem.Text = "2P";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1540, 1102);
+            this.ClientSize = new System.Drawing.Size(1301, 1102);
             this.Controls.Add(this.panelHistory);
             this.Controls.Add(this.panelPlayer);
             this.Controls.Add(this.pnlBoard);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "TIc Tac Toe";
             this.panelPlayer.ResumeLayout(false);
@@ -137,7 +202,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelHistory.ResumeLayout(false);
             this.panelHistory.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -150,6 +218,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem chếĐộToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aIToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pToolStripMenuItem;
     }
 }
 
