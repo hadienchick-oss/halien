@@ -17,7 +17,7 @@ namespace TicTacToe
         public Form1()
         {
             InitializeComponent();
-            ChessBoard= new Board(pnlBoard);
+            ChessBoard= new Board(pnlBoard,ptbPlayer);
             ChessBoard.drawChessBoard();
         }
     }

@@ -16,23 +16,28 @@ namespace TicTacToe
             private int boardSize;
             private List<Player> players;
             private int currentPlayer;
-            private Panel chessBoard;
+         
+            private PictureBox mark;
 
-            public GameController(int[,] gameState, int boardSize, List<Player> players, Panel chessBoard, int currentPlayer)
+            public GameController(int[,] gameState, int boardSize, List<Player> players, int currentPlayer,PictureBox mark)
             {
                 this.gameState = gameState;
                 this.boardSize = boardSize;
                 this.players = players;
-                this.chessBoard = chessBoard;
+           
                 this.currentPlayer = currentPlayer;
+                this.mark = mark;
             }
 
+
+            //----------Sự Kiện btn Click-----------------
             public void btnClick(object sender, EventArgs e)
             {
                 Button btn = sender as Button;
-                if (btn == null || btn.BackgroundImage != null) return;
-
+                if (btn.BackgroundImage != null) return;
                 btn.BackgroundImage = players[currentPlayer].Mark;
+                mark.BackgroundImage = players[currentPlayer == 1 ? 0 : 1].Mark;
+
 
                 if (btn.Tag is Point point)
                 {
@@ -47,18 +52,18 @@ namespace TicTacToe
                         MessageBox.Show($"Người chơi {players[currentPlayer].Name} thắng!");
 
                         // Khóa bàn cờ
-                        foreach (Control ctrl in chessBoard.Controls)
-                        {
-                            if (ctrl is Button b)
-                                b.Enabled = false;
-                        }
+                        //foreach (Control ctrl in chessBoard.Controls)
+                        //{
+                        //    if (ctrl is Button b)
+                        //        b.Enabled = false;
+                        //}
                     }
 
                     currentPlayer = currentPlayer == 1 ? 0 : 1;
                 }
             }
-
-            public int CurrentPlayer => currentPlayer;
+            //------Có thể cmt------
+            //public int CurrentPlayer => currentPlayer;
         }
     }
 

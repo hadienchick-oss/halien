@@ -36,10 +36,15 @@ namespace TicTacToe
             get => currentPlayer; 
             set => currentPlayer = value; 
         }
+        public PictureBox PlayerMark { get => playerMark; set => playerMark = value; }
 
-        // Bàn cờ ảnh x và o 
-        public Board(Panel chessBoard)
+        private PictureBox playerMark;
+
+
+        // Bàn cờ 
+        public Board(Panel chessBoard, PictureBox mark)
         {
+            this.playerMark = mark;
             this.ChessBoard = chessBoard;
             this.Player = new List<Player>()
             {
@@ -49,11 +54,20 @@ namespace TicTacToe
             CurrentPlayer = 0;
         }
 
-        private int[,] gameState = new int[cache.SizeChess, cache.SizeChess]; //Ma tran de luu vi tri cho viec kiem tra thang
-        public void drawChessBoard()  // Hàm vẽ ra bàn cờ
-        {
-            GameController controller = new GameController(gameState, cache.SizeChess, Player, ChessBoard, CurrentPlayer);//Nut
 
+
+
+        //---------Ma trận lưu vị trí btn---------------
+        private int[,] gameState = new int[cache.SizeChess, cache.SizeChess];
+
+
+
+        // ----------------Hàm Vẽ Bàn Cờ----------------
+        //_______________________________________________
+        public void drawChessBoard()  
+        {
+            GameController controller = new GameController(gameState, cache.SizeChess, Player, CurrentPlayer, PlayerMark);//Nut
+            
             Button oldBtn = new Button()
             {
                 Width = 0,
@@ -68,7 +82,7 @@ namespace TicTacToe
                         Width = cache.Chess_Width,
                         Height = cache.Chess_Height,
                         Location = new Point(oldBtn.Location.X + oldBtn.Width, oldBtn.Location.Y),
-                        BackgroundImageLayout= ImageLayout.Stretch,// stretch image
+                        BackgroundImageLayout= ImageLayout.Stretch,// ảnh 
                         Tag = new Point(i, j) //  Gán tọa độ để xử lý khi click
 
                     };

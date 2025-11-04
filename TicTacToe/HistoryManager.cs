@@ -11,24 +11,24 @@ namespace TicTacToe
 {
     internal class HistoryManager
     {
-        private Button[,] matrix = new Button[15, 15];
-        public void SaveGame(string filePath)
-        {
-            using (StreamWriter writer = new StreamWriter(filePath))
-            {
-                for (int i = 0; i < cache.SizeChess; i++)
-                {
-                    for (int j = 0; j < cache.SizeChess; j++)
-                    {
-                        Button btn = matrix[i, j];
-                        string value = btn.Tag != null ? btn.Tag.ToString() : "-1"; // -1 là ô trống
-                        writer.Write(value + " ");
-                    }
-                    writer.WriteLine(); // xuống dòng sau mỗi hàng
-                }
-            }
+        //private Button[,] matrix = new Button[15, 15];
+        //public void SaveGame(string filePath)
+        //{
+        //    using (StreamWriter writer = new StreamWriter(filePath))
+        //    {
+        //        for (int i = 0; i < cache.SizeChess; i++)
+        //        {
+        //            for (int j = 0; j < cache.SizeChess; j++)
+        //            {
+        //                Button btn = matrix[i, j];
+        //                string value = btn.Tag != null ? btn.Tag.ToString() : "-1"; // -1 là ô trống
+        //                writer.Write(value + " ");
+        //            }
+        //            writer.WriteLine(); // xuống dòng sau mỗi hàng
+        //        }
+        //    }
 
-            MessageBox.Show("Đã lưu ván chơi thành công!");
-        }
+        //    MessageBox.Show("Đã lưu ván chơi thành công!");
+        //}
     }
 }

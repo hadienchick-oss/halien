@@ -9,6 +9,7 @@ using System.Windows.Forms;
 
 namespace TicTacToe
 {
+    
     public class GameRule
     {
         private int[,] gameState;
@@ -20,6 +21,11 @@ namespace TicTacToe
             this.boardSize = boardSize;
         }
 
+
+
+
+        //------------Kiểm Tra Thắng----------------
+        //------------------------------------------
         public bool CheckWin(int row, int col)
         {
             int player = gameState[row, col];
