@@ -1,6 +1,6 @@
 ﻿namespace TicTacToe
 {
-    partial class Form1
+    partial class Cell
     {
         /// <summary>
         /// Required designer variable.
@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.pnlBoard = new System.Windows.Forms.Panel();
             this.panelPlayer = new System.Windows.Forms.Panel();
+            this.ptbPlayer = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelHistory = new System.Windows.Forms.Panel();
@@ -40,15 +41,15 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.chếĐộToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.botToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.ptbPlayer = new System.Windows.Forms.PictureBox();
+            this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelPlayer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbPlayer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelHistory.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbPlayer)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlBoard
@@ -72,6 +73,16 @@
             this.panelPlayer.Name = "panelPlayer";
             this.panelPlayer.Size = new System.Drawing.Size(296, 604);
             this.panelPlayer.TabIndex = 1;
+            // 
+            // ptbPlayer
+            // 
+            this.ptbPlayer.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ptbPlayer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ptbPlayer.Location = new System.Drawing.Point(57, 384);
+            this.ptbPlayer.Name = "ptbPlayer";
+            this.ptbPlayer.Size = new System.Drawing.Size(162, 157);
+            this.ptbPlayer.TabIndex = 4;
+            this.ptbPlayer.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -148,38 +159,41 @@
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newGameToolStripMenuItem,
             this.toolStripMenuItem2,
             this.chếĐộToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(97, 36);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(97, 44);
             this.toolStripMenuItem1.Text = "Menu";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(227, 44);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(359, 44);
             this.toolStripMenuItem2.Text = "Lịch Sử";
             // 
             // chếĐộToolStripMenuItem
             // 
             this.chếĐộToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aIToolStripMenuItem,
+            this.botToolStripMenuItem,
             this.pToolStripMenuItem});
             this.chếĐộToolStripMenuItem.Name = "chếĐộToolStripMenuItem";
-            this.chếĐộToolStripMenuItem.Size = new System.Drawing.Size(227, 44);
+            this.chếĐộToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
             this.chếĐộToolStripMenuItem.Text = "Chế Độ";
             // 
-            // aIToolStripMenuItem
+            // botToolStripMenuItem
             // 
-            this.aIToolStripMenuItem.Name = "aIToolStripMenuItem";
-            this.aIToolStripMenuItem.Size = new System.Drawing.Size(173, 44);
-            this.aIToolStripMenuItem.Text = "AI";
+            this.botToolStripMenuItem.Name = "botToolStripMenuItem";
+            this.botToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.botToolStripMenuItem.Text = "Bot";
+            this.botToolStripMenuItem.Click += new System.EventHandler(this.botToolStripMenuItem_Click);
             // 
             // pToolStripMenuItem
             // 
             this.pToolStripMenuItem.Name = "pToolStripMenuItem";
-            this.pToolStripMenuItem.Size = new System.Drawing.Size(173, 44);
+            this.pToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
             this.pToolStripMenuItem.Text = "2P";
+            this.pToolStripMenuItem.Click += new System.EventHandler(this.pToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 
@@ -187,15 +201,12 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // ptbPlayer
+            // newGameToolStripMenuItem
             // 
-            this.ptbPlayer.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ptbPlayer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptbPlayer.Location = new System.Drawing.Point(57, 384);
-            this.ptbPlayer.Name = "ptbPlayer";
-            this.ptbPlayer.Size = new System.Drawing.Size(162, 157);
-            this.ptbPlayer.TabIndex = 4;
-            this.ptbPlayer.TabStop = false;
+            this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.newGameToolStripMenuItem.Text = "New Game";
+            this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -212,12 +223,12 @@
             this.Text = "TIc Tac Toe";
             this.panelPlayer.ResumeLayout(false);
             this.panelPlayer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbPlayer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelHistory.ResumeLayout(false);
             this.panelHistory.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbPlayer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,9 +248,10 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem chếĐộToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aIToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem botToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pToolStripMenuItem;
         private System.Windows.Forms.PictureBox ptbPlayer;
+        private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
     }
 }
 

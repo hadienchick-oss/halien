@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -54,19 +55,23 @@ namespace TicTacToe
             CurrentPlayer = 0;
         }
 
-
-
-
-        //---------Ma trận lưu vị trí btn---------------
-        private int[,] gameState = new int[cache.SizeChess, cache.SizeChess];
-
+        //-----để bật tắt AI--------
+        public static bool Bot = false;
+        
 
 
         // ----------------Hàm Vẽ Bàn Cờ----------------
         //_______________________________________________
-        public void drawChessBoard()  
-        {
-            GameController controller = new GameController(gameState, cache.SizeChess, Player, CurrentPlayer, PlayerMark);//Nut
+        public void drawChessBoard()
+        {   
+            //---------Ma trận lưu vị trí btn---------------
+            int[,] gameState = new int[cache.SizeChess, cache.SizeChess];
+            ChessBoard.Controls.Clear();
+            PlayerMark.BackgroundImage = Player[0].Mark;
+          
+
+            GameController controller = new GameController(gameState, Player, CurrentPlayer, PlayerMark,chessBoard, this);//Nut
+           
             
             Button oldBtn = new Button()
             {
@@ -88,6 +93,7 @@ namespace TicTacToe
                     };
                     //Sự kiện nút
                     btn.Click += controller.btnClick;
+                    
                     ChessBoard.Controls.Add(btn); // Thêm nút vào bàn cờ
                     oldBtn = btn; // gán nút vừa tạo thành nút old để tiếp tục tạo nút mới cho vòng lập sau
                 }
@@ -98,5 +104,6 @@ namespace TicTacToe
 
             }
         }
+        
     }
 }

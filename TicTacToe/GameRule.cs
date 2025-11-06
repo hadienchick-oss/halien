@@ -20,10 +20,6 @@ namespace TicTacToe
             this.gameState = gameState;
             this.boardSize = boardSize;
         }
-
-
-
-
         //------------Kiểm Tra Thắng----------------
         //------------------------------------------
         public bool CheckWin(int row, int col)
@@ -49,8 +45,8 @@ namespace TicTacToe
                 i += dRow;
                 j += dCol;
             }
-
             return count;
         }
+
     }
 }

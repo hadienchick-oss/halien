@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace TicTacToe
 {
@@ -25,6 +26,8 @@ namespace TicTacToe
             this.Name = name;
             this.Mark = mark;
         }
+
+        // -----------A.I----Caro----------
        
     }
 }
