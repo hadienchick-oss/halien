@@ -13,21 +13,50 @@ namespace TicTacToe
 
         // Ten player
         private string name;
-        public string Name { get => name; set => name = value; }
-
-
         // image Player
         private Image mark;
-        public Image Mark { get => mark; set => mark = value; }
+        private int[,] gameState;
+        private Panel chessBoard;
 
+
+        public string Name { get => name; set => name = value; }
+        public Image Mark { get => mark; set => mark = value; }
 
         public Player(string name, Image mark) 
         {
             this.Name = name;
             this.Mark = mark;
         }
+     
+        public Player(int[,] gameState, Panel chessBoard)
+        {
+            this.gameState = gameState;
+            this.chessBoard = chessBoard;
+        }
 
-        // -----------A.I----Caro----------
-       
+        // -----------A.I----Caro------------------
+        //==========================================
+        public static void BotPlay(int[,]gameState,Panel chessBoard)
+        {
+            Random rand = new Random();
+
+            while (true)
+            {
+                int row = rand.Next(cache.SizeChess);
+                int col = rand.Next(cache.SizeChess);
+
+                if (gameState[row, col] == 0)
+                {
+                    foreach (Control ctrl in chessBoard.Controls)
+                    {
+                        if (ctrl is Button btn && btn.Tag is Point p && p.X == row && p.Y == col)
+                        {
+                            btn.PerformClick(); // giả lập click để bot đánh
+                            return;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

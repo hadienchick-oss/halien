@@ -13,12 +13,12 @@ namespace TicTacToe
     public class GameRule
     {
         private int[,] gameState;
-        private int boardSize;
+
 
         public GameRule(int[,] gameState, int boardSize)
         {
             this.gameState = gameState;
-            this.boardSize = boardSize;
+
         }
         //------------Kiểm Tra Thắng----------------
         //------------------------------------------
@@ -39,7 +39,7 @@ namespace TicTacToe
             int i = row + dRow;
             int j = col + dCol;
 
-            while (i >= 0 && i < boardSize && j >= 0 && j < boardSize && gameState[i, j] == player)
+            while (i >= 0 && i < cache.SizeChess && j >= 0 && j < cache.SizeChess && gameState[i, j] == player)
             {
                 count++;
                 i += dRow;

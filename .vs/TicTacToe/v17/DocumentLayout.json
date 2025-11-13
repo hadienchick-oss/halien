@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\tictactoe\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\tictactoe\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\tictactoe\\historymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\historymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\tictactoe\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\tictactoe\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\tictactoe\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\tictactoe\\historymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\historymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{077EBCAA-9695-4AA2-9DC9-78A8EBE1FFC0}|TicTacToe\\TicTacToe.csproj|D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\tictactoe\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,77 +46,78 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GameRule.cs",
               "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\GameRule.cs",
               "RelativeDocumentMoniker": "TicTacToe\\GameRule.cs",
               "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\GameRule.cs",
               "RelativeToolTip": "TicTacToe\\GameRule.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T15:53:49.25Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Board.cs",
-              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Board.cs",
-              "RelativeDocumentMoniker": "TicTacToe\\Board.cs",
-              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Board.cs",
-              "RelativeToolTip": "TicTacToe\\Board.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowEYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:41:57.191Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\GameController.cs",
-              "RelativeDocumentMoniker": "TicTacToe\\GameController.cs",
-              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\GameController.cs",
-              "RelativeToolTip": "TicTacToe\\GameController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAiwDQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T17:34:09.42Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Player.cs",
               "RelativeDocumentMoniker": "TicTacToe\\Player.cs",
               "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Player.cs",
               "RelativeToolTip": "TicTacToe\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T03:58:08.424Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Board.cs",
+              "RelativeDocumentMoniker": "TicTacToe\\Board.cs",
+              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Board.cs",
+              "RelativeToolTip": "TicTacToe\\Board.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswDMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T15:41:57.191Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HistoryManager.cs",
               "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\HistoryManager.cs",
               "RelativeDocumentMoniker": "TicTacToe\\HistoryManager.cs",
               "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\HistoryManager.cs",
               "RelativeToolTip": "TicTacToe\\HistoryManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T16:31:15.316Z"
+              "WhenOpened": "2025-11-03T16:31:15.316Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\GameController.cs",
+              "RelativeDocumentMoniker": "TicTacToe\\GameController.cs",
+              "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\GameController.cs",
+              "RelativeToolTip": "TicTacToe\\GameController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwFIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T17:34:09.42Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Cell.cs",
               "DocumentMoniker": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Cell.cs",
               "RelativeDocumentMoniker": "TicTacToe\\Cell.cs",
               "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\Cell.cs",
               "RelativeToolTip": "TicTacToe\\Cell.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwBAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowFIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T03:59:26.787Z",
               "EditorCaption": ""
@@ -141,7 +142,7 @@
               "RelativeDocumentMoniker": "TicTacToe\\cache.cs",
               "ToolTip": "D:\\3_code\\2025-2026\\HK1\\\u0110\u1ED3 \u00E1n tin h\u1ECDc\\TicTacToe\\TicTacToe\\cache.cs",
               "RelativeToolTip": "TicTacToe\\cache.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T15:17:55.959Z"
             }
